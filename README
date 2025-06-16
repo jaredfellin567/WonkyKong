@@ -15,9 +15,9 @@ In Wonky Kong, the player navigates platforms, jumps over obstacles, and avoids 
 
 ## 🚀 HOW TO BUILD AND RUN
 
-```bash
-make
-./WonkyKong
+- Clone this repository and cd into folder
+- Run command: make
+- Run with command: ./WonkyKong
 
 ## 🕹️ CONTROLS
 
