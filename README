@@ -1,0 +1,47 @@
+# WONKY KONG
+
+**Wonky Kong** is a 2D platformer game written in C++ using OpenGL and FreeGLUT. Built for UCLA’s CS curriculum, the game is inspired by Donkey Kong and features object-oriented architecture, collision detection, and real-time game logic.
+
+## 🎮 GAME DESCRIPTION
+
+In Wonky Kong, the player navigates platforms, jumps over obstacles, and avoids enemies to reach the top of the level. The game runs on a tick-based loop (20 ticks per second), processing keyboard input, updating object positions, handling collisions, and rendering the screen.
+
+## 🛠 REQUIREMENTS
+
+- macOS or Linux (Windows not officially supported)
+- C++ compiler (e.g., `g++`)
+- FreeGLUT (`brew install freeglut` on macOS)
+- OpenGL (usually pre-installed)
+
+## 🚀 HOW TO BUILD AND RUN
+
+```bash
+make
+./WonkyKong
+
+## 🕹️ CONTROLS
+
+Left/Right Arrow Keys: Move left/right
+Up/Down Arrow Keys: Move up/down ladders
+Spacebar: Jump
+Tab: Burp
+
+## 📁 PROJECT STRUCTURE
+
+WonkyKong/
+─ Actor.h / Actor.cpp              # Game entities and behavior
+─ StudentWorld.h / StudentWorld.cpp # World logic and interactions
+─ GameController.h / GameController.cpp # Provided game engine interface
+─ GameWorld.h / GameWorld.cpp     # Top-level game control
+─ main.cpp                        # Game entry point
+─ assets/                         # Sprites, sounds, levels
+─ Makefile                        # Build automation
+─ README.md                       # This file
+
+## ⚠️ Academic Honesty Notice
+
+This project was created as part of coursework for UCLA's Computer Science curriculum. The source code is provided publicly **only for educational showcase and learning purposes**.
+
+**Any reuse of this code to complete similar assignments, submit as your own work, or violate academic integrity policies is strictly prohibited.**
+
+If you are a student in a related course, you are expected to complete all assignments independently in accordance with your institution’s academic honesty guidelines.
